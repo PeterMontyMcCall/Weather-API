@@ -1,16 +1,16 @@
 
-# Weather API Project 🌤️
+# Weather API Project
 
 This is a simple Node.js + Express weather API that fetches real-time weather data from the [Visual Crossing Weather API](https://www.visualcrossing.com/), uses Redis for in-memory caching, and includes basic rate limiting.
 
-## ✅ Features
+## Features
 
 - Fetches weather data for any city
 - Caches results in Redis for 12 hours
 - Uses environment variables to store API keys and configuration
 - Implements rate limiting to prevent abuse
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Node.js
 - Express
@@ -19,7 +19,7 @@ This is a simple Node.js + Express weather API that fetches real-time weather da
 - dotenv
 - express-rate-limit
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -77,7 +77,7 @@ Returns:
 }
 ```
 
-## 📌 Notes
+## Notes
 
 - Cached responses expire after 6 hours (21600 seconds)
 - Limited to 10 requests per minute per IP
